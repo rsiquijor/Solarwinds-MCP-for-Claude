@@ -1,0 +1,35 @@
+solarwinds-mcp-server/
+├── 📄 README.md
+├── 📄 LICENSE
+├── 📄 .gitignore
+├── 📄 package.json
+├── 📄 tsconfig.json
+├── 📄 jest.config.js
+├── 📄 docker-compose.yml
+├── 📄 Dockerfile
+├── 📁 src/
+│   ├── 📄 index.ts                    # Main server entry point
+│   ├── 📄 advanced-features.ts        # Enhanced client and utilities
+│   └── 📄 types.ts                    # TypeScript type definitions
+├── 📁 config/
+│   ├── 📄 config.example.json         # Example configuration
+│   ├── 📄 config.production.json      # Production config template
+│   └── 📄 systemd.service             # Systemd service file
+├── 📁 test/
+│   ├── 📄 solarwinds-mcp-server.test.ts
+│   ├── 📄 integration.test.ts
+│   └── 📄 test-utils.ts
+├── 📁 docs/
+│   ├── 📄 deployment-guide.md
+│   ├── 📄 usage-examples.md
+│   ├── 📄 api-reference.md
+│   ├── 📄 troubleshooting.md
+│   └── 📄 contributing.md
+├── 📁 scripts/
+│   ├── 📄 setup.sh                    # Installation script
+│   ├── 📄 health-check.sh             # Health monitoring script
+│   └── 📄 backup-config.sh            # Configuration backup
+├── 📁 logs/
+│   └── 📄 .gitkeep
+└── 📁 build/                          # Generated directory (not in git)
+    └── 📄 .gitkeep
